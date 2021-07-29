@@ -1,2 +1,2 @@
 # YuetingH.github.io
-Individual Homepage
+Personal Website

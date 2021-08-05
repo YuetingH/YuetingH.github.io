@@ -21,7 +21,7 @@
 		overflow: hidden;
 		padding: 2rem 2rem 0 0;
 		position: relative;
-		width: calc(100% - #{_size(padding) * 2});
+		width: calc(100% - #{_size(padding)});
 		max-width: _size(wrapper);
 		z-index: 2;
 

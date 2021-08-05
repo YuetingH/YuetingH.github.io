@@ -2769,7 +2769,7 @@ input, select, textarea {
 		padding: 2em 2em 0em 0em;
 		position: relative;
 		width: calc(100%-32%);
-		max-width: 65em;
+		max-width: 70em;
 		z-index: 2;
 	}
 

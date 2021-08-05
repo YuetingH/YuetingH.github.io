@@ -2893,21 +2893,13 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-		/*@media screen and (max-width: 980px) {
+		@media screen and (max-width: 980px) {
 
 			#nav {
-				display: none;
+				margin-left: 0%;
 			}
 
 		}
-
-		@media screen and (max-width: 480px) {
-
-			#nav {
-				display: none;
-			}
-
-		}*/
 
 /* Main */
 

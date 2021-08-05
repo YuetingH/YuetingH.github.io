@@ -2766,7 +2766,7 @@ input, select, textarea {
 		line-height: 4rem;
 		margin-left: 32%;
 		overflow: hidden;
-		padding: 2em 2em 0em 0em;
+		padding: 0em 2em 0em 0em;
 		position: relative;
 		width: calc(100%-32%);
 		max-width: 70em;
@@ -3251,7 +3251,7 @@ input, select, textarea {
 				margin-left: 30%;
 				max-width: none;
 				padding: 6em 3em 3em 3em;
-				width: calc(100% - 30%);
+				width: calc(100% - 32%);
 			}
 
 	}

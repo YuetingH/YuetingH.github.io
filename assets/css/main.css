@@ -2893,7 +2893,7 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		/*@media screen and (max-width: 980px) {
 
 			#nav {
 				display: none;
@@ -2903,11 +2903,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			.nav {
+			#nav {
 				display: none;
 			}
 
-		}
+		}*/
 
 /* Main */
 
@@ -3228,7 +3228,7 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 32%;
 			}
 
 				#header h1 {

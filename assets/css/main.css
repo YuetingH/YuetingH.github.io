@@ -2887,7 +2887,7 @@ input, select, textarea {
 			list-style: none;
 			margin-bottom: 0;
 			padding-left: 0;
-			text-transform: capitalize;
+			text-transform: uppercase;
 		}
 
 			#nav ul.links li {

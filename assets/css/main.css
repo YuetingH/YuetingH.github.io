@@ -2199,7 +2199,7 @@ input, select, textarea {
 		}
 
 	ul.divided li {
-		border-top-color: #eeeeee;
+		border-top-color: #909498;
 	}
 
 	ul.icons li a.icon:hover:before {
@@ -2207,7 +2207,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li .icon:before {
-		box-shadow: inset 0 0 0 2px #eeeeee;
+		box-shadow: inset 0 0 0 2px #909498;
 	}
 
 	ul.icons.alt li a.icon:hover:before {
@@ -2820,7 +2820,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #49bf9d;
 		}	
 
 		#nav ul.icons.alt li .icon:before {
@@ -2828,7 +2828,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #49bf9d;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -2842,7 +2842,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #49bf9d !important;
 			}
 
 		#nav strong, #nav b {
@@ -2920,7 +2920,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #49bf9d !important;
 						}
 
 		#nav ul.icons {
@@ -3584,7 +3584,7 @@ input, select, textarea {
 		}
 
 			#navPanel .links li {
-				border-top: solid 2px #eeeeee;
+				border-top: solid 2px #bbbdbe;
 			}
 
 				#navPanel .links li a {

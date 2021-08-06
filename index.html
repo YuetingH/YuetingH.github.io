@@ -11,13 +11,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<a href="about.html" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
 					<h1><strong>I am Yueting Han</strong>, <br />
 					a junior mathematician, <br />
 					<i>doing what I love, persuing my own life</i><br />
@@ -25,28 +26,19 @@
 			</header>
 
 		<!-- Nav -->
-			<nav id="nav">
-				<ul class="links">
-					<li class="active"><a href="index.html">Homepage</a></li>
-					<li><a href="#">My Work</a></li>
-					<li><a href="#">Learning Notebook</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="contactme.html">Contact Me</a></li>
-
-				</ul>
-			</nav>
-
-		<!-- Nav Panel -->
-		<nav id="navPanel">
-			<ul class="links">
-				<li class="active"><a href="index.html">Homepage</a></li>
-				<li><a href="#">My Work</a></li>
-				<li><a href="#">Learning Notebook</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="contactme.html">Contact Me</a></li>
-
-			</ul>
-		</nav>
+			<div id="wrapper">
+				<nav id="nav">
+					<ul class="links">
+						<li class="active"><a href="index.html">Homepage</a></li>
+						<li><a href="#">My Work</a></li>
+						<li><a href="#">Notebook</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://github.com/YuetingH" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+					</ul>
+				</nav>
+			</div>
 
 		<!-- Main -->
 			<div id="main">
@@ -144,13 +136,13 @@
 							<h5>Preformatted</h5>
 							<pre><code>i = 0;
 
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
+        while (!deck.isInOrder()) {
+		print 'Iteration ' + i;
+		deck.shuffle();
+		i++;
+		}
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+		print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</section>
 
 						<section>
@@ -436,11 +428,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
+					<!--
 					<ul class="icons">
 						<li><a href="#" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="https://github.com/YuetingH" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<!--<li><a href="images/wechat.jpg" class="icon brands fa-weixin"><span class="label">Wechat</span></a></li>-->
-						<!--<li><a href="mailto:Y.Han202105@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>-->
+						<li><a href="images/wechat.jpg" class="icon brands fa-weixin"><span class="label">Wechat</span></a></li>
+						<li><a href="mailto:Y.Han202105@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>-->
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Hyt</li><li>Design: <a href="http://html5up.net"	target="_blank">HTML5 UP</a></li><li>Last Update on Aug 5th, 2021</li>
@@ -454,6 +447,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

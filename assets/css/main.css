@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #000000;
 		text-decoration: none;
 	}
 
@@ -2150,42 +2150,70 @@ input, select, textarea {
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2em 0;
-		padding-left: 1.25em;
+		margin: 0 0 2rem 0;
+		padding-left: 1.25rem;
 	}
 
 		ol li {
-			padding-left: 0.25em;
+			padding-left: 0.5rem;
 		}
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
+		margin: 0 0 2rem 0;
+		padding-left: 1rem;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0.5rem;
 		}
 
-		ul.alt {
+		ul.divided {
 			list-style: none;
 			padding-left: 0;
 		}
 
-			ul.alt li {
-				border-top: solid 2px #efefef;
-				padding: 0.5em 0;
+			ul.divided li {
+				border-top: solid 1px;
+				padding: 0.5rem 0;
 			}
 
-				ul.alt li:first-child {
+				ul.divided li:first-child {
 					border-top: 0;
 					padding-top: 0;
 				}
 
+	
 	dl {
-		margin: 0 0 2em 0;
+		margin: 0 0 2rem 0;
 	}
+
+		dl dt {
+			display: block;
+			font-weight: 600;
+			margin: 0 0 1rem 0;
+		}
+
+		dl dd {
+			margin-left: 2rem;
+		}
+
+	ul.divided li {
+		border-top-color: #eeeeee;
+	}
+
+	ul.icons li a.icon:hover:before {
+		color: #49bf9d;
+	}
+
+	ul.icons.alt li .icon:before {
+		box-shadow: inset 0 0 0 2px #eeeeee;
+	}
+
+	ul.icons.alt li a.icon:hover:before {
+		box-shadow: inset 0 0 0 2px #49bf9d;
+	}
+
 
 /* Icons */
 
@@ -2197,7 +2225,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 0.5rem 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2205,8 +2233,22 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
+				width: 2.25rem;
+				height: 2.25rem;
+				line-height: 2.25rem;
+				display: inline-block;
+				text-align: center;
+				border-radius: 100%;
 				font-size: 1.5em;
 			}
+
+		ul.icons.alt li .icon:before {
+			-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+			-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+			-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+			transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+			font-size: 1rem;
+		}
 
 /* Labeled Icons */
 
@@ -2720,11 +2762,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.6);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.6);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2732,7 +2774,7 @@ input, select, textarea {
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px rgba(255, 255, 255, 0.25);
+			border-left: solid 1px rgba(255, 255, 255, 0.5);
 			display: inline-block;
 			line-height: 1em;
 			margin-left: 0.75em;
@@ -3250,7 +3292,7 @@ input, select, textarea {
 			#main {
 				margin-left: 32%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 3em 3em 3em 3em;
 				width: calc(100% - 32%);
 			}
 
@@ -3332,7 +3374,7 @@ input, select, textarea {
 
 			#main {
 				margin: 0;
-				padding: 6em 4em;
+				padding: 4em 4em;
 				width: 100%;
 			}
 
@@ -3379,7 +3421,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 2.25em 1.5em;
+				padding: 2.25em 2.25em;
 			}
 
 				#header h1 {
@@ -3389,13 +3431,13 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 2.25em 1.5em;
+				padding: 2.25em 2.25em;
 			}
 
 		/* Main */
 
 			#main {
-				padding: 2.25em 1.5em 0.25em 1.5em;
+				padding: 2.25em 2.25em 0.25em 2.25em;
 			}
 
 				#main > section {
@@ -3521,7 +3563,7 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: rgba(255, 255, 255, 0.9);
 		box-shadow: none;
 		color: #212931;
 		height: 100%;
@@ -3614,7 +3656,7 @@ input, select, textarea {
 
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1080px) {
 
 			#navPanel {
 				display: block;
@@ -3630,7 +3672,7 @@ input, select, textarea {
 
 		}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1080px) {
 
 		body.is-navPanel-visible #wrapper {
 			opacity: 0.5;

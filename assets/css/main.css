@@ -3689,7 +3689,7 @@ input, select, textarea {
 
 	}
 
-/*Label*/
+/* Label */
 #time-roundCornor {
 	border-radius: 5px;
 	background: #bdbbbb; 
@@ -3723,3 +3723,9 @@ input, select, textarea {
 	color: white;
 	font-weight: 500;
 }
+
+/* Indentation */
+#indentation {
+	margin-left: 50px;
+}
+

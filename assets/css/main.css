@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #000000;
+		color: #3c7eaa;
 		text-decoration: none;
 	}
 
@@ -3689,4 +3689,37 @@ input, select, textarea {
 
 	}
 
+/*Label*/
+#time-roundCornor {
+	border-radius: 5px;
+	background: #bdbbbb; 
+	padding-left: 5px; 
+	padding-right: 5px; 
+	width: 93px;
+	height: 28px; 
+	color: white;
+	font-weight: 500;
+}
 
+#write-roundCornor {
+	border-radius: 5px;
+	background: #35af2a;
+	padding: 3px;
+	padding-left: 10px; 
+	padding-right: 10px; 
+	width: 93px;
+	height: 28px; 
+	color: white;
+	font-weight: 800;
+}
+
+#complete-roundCornor {
+	border-radius: 5px;
+	background: #999797; 
+	padding-left: 5px; 
+	padding-right: 5px; 
+	width: 93px;
+	height: 28px; 
+	color: white;
+	font-weight: 500;
+}

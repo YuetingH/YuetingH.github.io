@@ -4,7 +4,7 @@ Plase visit it by clicking https://yuetingh.github.io/.
 
 ## Resource
 <table class="alt">
-							<thead>
+	<thead>
 								<tr>
 									<th>&nbsp;&nbsp;&nbsp;&nbsp;Name&nbsp;&nbsp; &nbsp;&nbsp;</th>
 									<th>Description</th>
@@ -38,7 +38,7 @@ Plase visit it by clicking https://yuetingh.github.io/.
 									<td>The whole website</td>
 								</tr>
 							</tbody>
-						</table>
+</table>
 ---
 
 Notice that I am currently working on it. I may update it at any time!

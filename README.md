@@ -2,6 +2,9 @@
 This is a repo for my personal website. 
 Plase visit it by clicking https://yuetingh.github.io/.
 
+## Use This Template
+If you would like to fork, I would recommend using 'fork' branch instead of 'main' branch, since 'fork' branch basically contains no personal information of me.
+
 ## Resource
 <table class="alt">
 	<thead>

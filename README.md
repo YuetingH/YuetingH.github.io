@@ -2,7 +2,7 @@
 This is a repo for my personal website. 
 Plase visit it by clicking https://yuetingh.github.io/.
 
-Feel free to fork the repo or leave a star if you like.
+Feel free to fork the repo or leave a star if you like it.
 
 ## Use This Template
 If you would like to fork, I would recommend using 'fork' branch instead of 'main' branch, since 'fork' branch basically contains no personal information of me.

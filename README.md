@@ -3,15 +3,78 @@ This is a repo for my personal website.
 Plase visit it by clicking https://yuetingh.github.io/.
 
 Feel free to fork the repo or leave a star if you like it.
+</br>
+</br>
 
 ## Use This Template
 If you would like to fork, I would recommend using 'fork' branch instead of 'main' branch, since 'fork' branch basically contains no personal information of me.
+</br>
+</br>
+
+## Framework
+<table class="alt">
+	<thead>
+		<tr>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+								<tr>
+									<td>Folder</td>
+									<td>MathJax-2.7.7</a></td>
+									<td>Math formulas in this website uses MathJax with version 2.7.7. It can be included directly into webpage.</td>
+								</tr>
+								<tr>
+									<td>Folder</td>
+									<td>assets</a></td>
+									<td>It contains <b>css folder</b> for adding style (e.g., fonts, colors, spacing) to Web documents, <b>js folder</b> for the dynamic part of the website and <b>webfonts</b> storing all kinds of icons.</a></td>
+								</tr>
+								<tr>
+									<td>Folder</td>
+									<td>build, web</td>
+									<td>Build folder contains .js files for PDF embedding and web folder is the place for the pdf file that you want to display.</td>
+								</tr>
+								<tr>
+									<td>Folder</td>
+									<td>Highlight</td>
+									<td>Code blocks in this website use it to highlight code syntax.</td>
+								</tr>
+								<tr>
+									<td>Folder</td>
+									<td>images</td>
+									<td>It contains all images for constructing the basic layout of this website.</td>
+								</tr>
+								<tr>
+									<td>Folder</td>
+									<td>Notebook</td>
+									<td>It contains all files(eg.image,PDF) included in Notebook page. HTML page is not included due to technical issue.</td>
+								</tr>
+								<tr>
+									<td>HTML</td>
+									<td>about, cv, index, notebook(and its relevant pages), project(and its relevant pages)</td>
+									<td>They control the layout of the whole website.</td>
+								</tr>
+								<tr>
+									<td>Text</td>
+									<td>LICENSE</td>
+									<td>It is the license of this website.</td>
+								</tr>
+								<tr>
+									<td>Markdown</td>
+									<td>README</td>
+									<td>It contains information that is displayed on github page, making it more convenient for users to read.</td>
+								</tr>
+	</tbody>
+</table>
+</br>
 
 ## Resource
 <table class="alt">
 	<thead>
 								<tr>
-									<th>&nbsp;&nbsp;&nbsp;&nbsp;Name&nbsp;&nbsp; &nbsp;&nbsp;</th>
+									<th>Name</th>
 									<th>Description</th>
 									<th>Used in</th>
 								</tr>
@@ -44,6 +107,7 @@ If you would like to fork, I would recommend using 'fork' branch instead of 'mai
 								</tr>
 							</tbody>
 </table>
+</br>
 
 ---
 Notice that I am currently working on it. I may update it at any time!

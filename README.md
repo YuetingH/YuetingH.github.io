@@ -53,17 +53,17 @@ If you would like to fork, I would recommend using 'fork' branch instead of 'mai
 								</tr>
 								<tr>
 									<td>HTML</td>
-									<td>about, cv, index, notebook(and its relevant pages), project(and its relevant pages)</td>
+									<td>about.html, cv.html, index.html, notebook.html (and its relevant pages), project.html (and its relevant pages)</td>
 									<td>They control the layout of the whole website.</td>
 								</tr>
 								<tr>
 									<td>Text</td>
-									<td>LICENSE</td>
+									<td>LICENSE.txt</td>
 									<td>It is the license of this website.</td>
 								</tr>
 								<tr>
 									<td>Markdown</td>
-									<td>README</td>
+									<td>README.md</td>
 									<td>It contains information that is displayed on github page, making it more convenient for users to read.</td>
 								</tr>
 	</tbody>

@@ -62,7 +62,7 @@
 				<section id="one">
 					<h1>Measure Path-length between Any Two Points in Triangulation Object</h1>
 					<h4><span id="time-roundCornor">Category</span>&nbsp;: Python</h4>
-					<h4><span id="time-roundCornor">Edited</span>&nbsp;: 13 Aug 2021<h4>
+					<h4><span id="time-roundCornor">Edited</span>&nbsp;: 1 Sep 2021<h4>
 					<h4><span id="time-roundCornor">Status</span>&nbsp;: <span id="complete-roundCornor">Completed</span></h4>
 					<h4><span id="time-roundCornor">Github Link</span>&nbsp;: <a href="https://github.com/YuetingH/Notebook/tree/main/Python-Measure_Path_Length" target="_blank"><i class="fas fa-link"></i></a></h4>
 					<h4><span id="time-roundCornor">Abstract</span>&nbsp;: When a triangulation object is drawn from given data using triplot in matplotlib, I measure distance between each pair of points through the smallest number of lines between them.</h4>
@@ -170,19 +170,9 @@ for i in range(len(triang.triangles)): # triang.triangles: store connected point
 					<!--Part III-->
 					<h2>Part III: Algorithm of Measuring Path-length</h2>
 					<p>Through this property of adjacency matrix, we can see that the path-length from point i to point j equals the smallest power of adjacency matrix A where A<sub>ij</sub> is not 0. Notice that in this algorithm, we reckon the path-length from every point to itself is 0.</p>
+					<p>Notice that we use a trick in our algorithm. That is, for each k, we disregard the number of k-length paths since we only need to know whether there exists a k-length path between each data point. Therefore, when we calculate A<sup>k</sup> = A<sup>k-1</sup> * A for each k, every nonzero entry of A<sup>k</sup> is set to be 1. For example, the original A<sup>k</sup><sub>ij</sub> = 4, we reset it to be 1 in order to prepare for next round of calculation.</p>
 					<p>The function of measuring path-length is attached below.</p>
-					<pre><code class="language-python">def matrixPow(Matrix,n):
-"""
-Calculate nth power of matrix
-"""
-	if(type(Matrix)==list):
-		Matrix=np.array(Matrix)
- 	if(n==1):
-		return Matrix
- 	else:
-		return np.matmul(Matrix,matrixPow(Matrix,n-1))
-					
-def triplot_distance(xy):
+					<pre><code class="language-python">def triplot_distance(xy):
 	"""
 	Measure distance between each pair of points by the number of lines between them under triangulation
 					
@@ -211,10 +201,12 @@ def triplot_distance(xy):
 					
 	power = 1
 	counter = 0
+	adjacency_pow = np.eye(n)
 					
 	while counter < n**2 - n:
-		adjacency_pow = matrixPow(adjacency,power)
+		adjacency_pow = np.matmul(adjacency, adjacency_pow)
 		alter = np.logical_and(adjacency_pow != 0, distance_tag == 0)
+		adjacency_pow[alter] = 1
 		np.fill_diagonal(alter,False)
 		distance[alter] = power
 		distance_tag[alter] = 1

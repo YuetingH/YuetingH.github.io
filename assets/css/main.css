@@ -3734,14 +3734,13 @@ input, select, textarea {
 #btn-back-to-top {
 	position: fixed;
 	display: none;
+	z-index:99999;
+	right: 28px;
 	bottom: 40px;
-	right: 40px;
-	border-radius: 40%;
-  	color: rgb(119, 118, 118);
-  	cursor: pointer;
+  	color: rgb(189, 189, 189);
   	line-height: 48px;
  	width: 48px;
-	background: white;
+    background: transparent;
 	border: none; /* Remove borders */
   	outline: none; /* Remove outline */
 }

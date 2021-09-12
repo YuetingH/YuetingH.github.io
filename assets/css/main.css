@@ -3730,3 +3730,23 @@ input, select, textarea {
 	margin-left: 50px;
 }
 
+/* Back to top Button */
+#btn-back-to-top {
+	position: fixed;
+	display: none;
+	bottom: 40px;
+	right: 40px;
+	border-radius: 40%;
+  	color: rgb(119, 118, 118);
+  	cursor: pointer;
+  	line-height: 48px;
+ 	width: 48px;
+	background: white;
+	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+}
+#btn-back-to-top:hover {
+	color: rgb(62, 190, 207); /* Add a dark-grey background on hover */
+  }
+
+

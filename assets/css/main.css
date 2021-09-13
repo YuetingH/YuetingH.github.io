@@ -3731,7 +3731,7 @@ input, select, textarea {
 }
 
 /* Back to top Button */
-#btn-back-to-top {
+.backTop-btn {
 	position: fixed;
 	display: none;
 	z-index:99999;
@@ -3744,8 +3744,10 @@ input, select, textarea {
 	border: none; /* Remove borders */
   	outline: none; /* Remove outline */
 }
-#btn-back-to-top:hover {
+.backTop-btn:hover {
 	color: rgb(62, 190, 207); /* Add a dark-grey background on hover */
-  }
+}
+
+
 
 

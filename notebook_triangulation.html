@@ -25,6 +25,8 @@
 			});
 		</script>
 		<script type="text/javascript" async src="MathJax-2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+		<script src="assets/js/marked.min.js"></script>
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -265,7 +267,13 @@ for i in range(len(triang.triangles)): # triang.triangles: store connected point
 			<script src="highlight/highlight.min.js"></script>
 			<script>hljs.highlightAll();</script>
 			<script src="path-to-MathJax/tex-chtml.js" id="MathJax-script" async></script>
-			
+			<!-- <script src="assets/js/marked.min.js"></script>
+			<script>
+				function convert(){
+        			var text = document.getElementById("oriContent").value;
+        			document.getElementById("result").innerHTML = marked('');
+    			}
+			</script> -->
 
 	</body>
 </html>
